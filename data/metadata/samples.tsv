@@ -1,0 +1,10 @@
+sample_name	condition	replicate	accession	srr
+complex_1	complex	1	SRX31399924	SRR36371356
+complex_2	complex	2	SRX31399925	SRR36371355
+complex_3	complex	3	SRX31399926	SRR36371354
+maltose_1	maltose	1	SRX31399927	SRR36371353
+maltose_2	maltose	2	SRX31399928	SRR36371352
+maltose_3	maltose	3	SRX31399929	SRR36371351
+pet_1	pet	1	SRX31399930	SRR36371350
+pet_2	pet	2	SRX31399931	SRR36371349
+pet_3	pet	3	SRX31399932	SRR36371348

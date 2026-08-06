@@ -1,0 +1,14 @@
+# Large data files
+data/raw/
+*.fastq
+*.fastq.gz
+*.sra
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
