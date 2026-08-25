@@ -1,0 +1,29 @@
+"","gene","protein","log2FoldChange","padj"
+"3623",NA,"poly(ethylene terephthalate) hydrolase",5.85632022351308,1.55057631878291e-134
+"648",NA,"aldehyde dehydrogenase family protein",1.08051194184745,8.36991072337732e-08
+"188","gph","phosphoglycolate phosphatase",1.0672267425499,9.95212259127362e-05
+"595",NA,"aldehyde dehydrogenase family protein",1.06545914093359,8.76919167085184e-05
+"4028",NA,"mono(2-hydroxyethyl) terephthalate hydrolase",0.9861052096802,7.14942709222863e-07
+"1610",NA,"NAD-dependent succinate-semialdehyde dehydrogenase",0.854312210528022,3.52800030684915e-05
+"2613",NA,"3,4-dehydroadipyl-CoA semialdehyde dehydrogenase",0.825982907762163,0.00337078971082567
+"3318","sauS","acylating sulfoacetaldehyde dehydrogenase",0.764947240924602,3.71979895425628e-06
+"1827",NA,"CoA-acylating methylmalonate-semialdehyde dehydrogenase",0.671953759112366,0.00754670152858917
+"2522","gph","phosphoglycolate phosphatase",0.657967276937072,0.0332813933805886
+"2053",NA,"aldehyde dehydrogenase family protein",0.556295332591978,0.021819223420843
+"2577","pedE","PQQ-dependent ethylene glycol dehydrogenase PedE",0.50913653432628,0.0359179960311429
+"1165","pcaG","protocatechuate 3,4-dioxygenase subunit alpha",0.458237729408032,0.0134998493381874
+"4635",NA,"aldehyde dehydrogenase",0.454123366564444,0.00866259918571047
+"4408","pedH","PQQ-dependent ethylene glycol dehydrogenase PedH",0.206536213810014,0.320956118351157
+"394","xoxF","PQQ-dependent ethylene glycol dehydrogenase XoxF",-0.0528483709023607,0.833173089654267
+"1166","pcaH","protocatechuate 3,4-dioxygenase subunit beta",-0.185626190524364,0.464252903422344
+"4253","putA","bifunctional proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase PutA",-0.23597362348126,0.492529927567769
+"1477",NA,"glutamate-5-semialdehyde dehydrogenase",-0.418927416067056,0.0268752822704484
+"1148","glcE","glycolate oxidase subunit GlcE",-0.433078525405795,0.0435177501001167
+"2326","asd","aspartate-semialdehyde dehydrogenase",-0.491910260958756,0.0325244539711151
+"2085","gph","phosphoglycolate phosphatase",-0.591215370457107,0.00051252718657419
+"1149","glcF","glycolate oxidase subunit GlcF",-0.614408297338849,0.00141072143620726
+"1414",NA,"NAD-dependent succinate-semialdehyde dehydrogenase",-0.649830036171352,0.00223678847342236
+"3100",NA,"NAD-dependent succinate-semialdehyde dehydrogenase",-0.769539328608236,2.91328567418122e-06
+"2110",NA,"aldehyde dehydrogenase",-1.33806037837306,3.86890601451741e-08
+"1255","gcl","glyoxylate carboligase",-1.3495420393115,1.78977413372458e-09
+"1099","pedI","aldehyde dehydrogenase PedI",-2.03299995086802,1.53311921955881e-19
