@@ -147,7 +147,7 @@ print(paste("wrote", nrow(de_annotated), "annotated rows"))
 
 # --- targeted pet degradation pathway gene table ---
 
-# search terms drawn from the source papers (yoshida 2016, hachisuka 2022, zhao 2025)
+# search terms drawn from the pet degradation pathway (yoshida 2016)
 # each is a known step in the pet degradation pathway
 search_terms <- c("terephthalate",
                   "poly(ethylene terephthalate)",
