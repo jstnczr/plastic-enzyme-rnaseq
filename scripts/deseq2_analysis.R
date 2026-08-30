@@ -6,6 +6,7 @@
 library(DESeq2)
 library(tximport)
 library(apeglm)
+library(ggplot2)
 
 # read the sample metadata
 samples <- read.csv("data/metadata/samples.csv")
@@ -56,11 +57,24 @@ print(resultsNames(dds))
 # variance-stabilizing transform for the pca plot
 vsd <- vst(dds, blind = TRUE)
 
+# build the pca plot as a ggplot object so we can add a title and clean it up
+# returnData = TRUE gives the coordinates, then we plot them ourselves
+pca_data <- plotPCA(vsd, intgroup = "condition", returnData = TRUE)
+percent_var <- round(100 * attr(pca_data, "percentVar"))
+
+pca_plot <- ggplot(pca_data, aes(x = PC1, y = PC2, color = condition)) +
+  geom_point(size = 4) +
+  labs(title = "Samples cluster by carbon source",
+       subtitle = "Piscinibacter sakaiensis, variance-stabilized counts",
+       x = paste0("PC1: ", percent_var[1], "% variance"),
+       y = paste0("PC2: ", percent_var[2], "% variance"),
+       color = "Carbon source") +
+  theme_minimal(base_size = 12) +
+  theme(plot.title = element_text(face = "bold"))
+
 # save the pca plot to the figures folder
 dir.create("results/figures", recursive = TRUE, showWarnings = FALSE)
-png("results/figures/pca_plot.png", width = 1200, height = 700, res = 150)
-plotPCA(vsd, intgroup = "condition")
-dev.off()
+ggsave("results/figures/pca_plot.png", pca_plot, width = 9, height = 5, dpi = 150)
 print("saved pca plot to results/figures/pca_plot.png")
 
 # extract pet vs maltose results with a stricter fold-change and significance threshold
