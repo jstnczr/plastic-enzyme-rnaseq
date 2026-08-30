@@ -34,10 +34,10 @@ The PET cultures were sampled at approximately 27 hours versus approximately 9 h
 
 ## References
 
-Love, M.I., Huber, W., and Anders, S. 2014. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology. 15: 550.
+Love, M.I., Huber, W., and Anders, S. 2014. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology. 15: 550. https://doi.org/10.1186/s13059-014-0550-8
 
-Novak, J.K., and Gardner, J.G. 2026. Transcriptome data sets of *Piscinibacter sakaiensis* grown in 702 complex medium, maltose, and PET plastic. Microbiology Resource Announcements. 15(4).
+Novak, J.K., and Gardner, J.G. 2026. Transcriptome data sets of *Piscinibacter sakaiensis* grown in 702 complex medium, maltose, and PET plastic. Microbiology Resource Announcements. 15: e01466-25. https://doi.org/10.1128/mra.01466-25
 
-Yoshida, S., Hiraga, K., Takehana, T., Taniguchi, I., Yamaji, H., Maeda, Y., Toyohara, K., Miyamoto, K., Kimura, Y., and Oda, K. 2016. A bacterium that degrades and assimilates poly(ethylene terephthalate). Science. 351: 1196-1199.
+Yoshida, S., Hiraga, K., Takehana, T., Taniguchi, I., Yamaji, H., Maeda, Y., Toyohara, K., Miyamoto, K., Kimura, Y., and Oda, K. 2016. A bacterium that degrades and assimilates poly(ethylene terephthalate). Science. 351: 1196-1199. https://doi.org/10.1126/science.aad6359
 
-Zhu, A., Ibrahim, J.G., and Love, M.I. 2019. Heavy-tailed prior distributions for sequence count data: removing the noise and preserving large differences. Bioinformatics. 35: 2084-2092.
+Zhu, A., Ibrahim, J.G., and Love, M.I. 2019. Heavy-tailed prior distributions for sequence count data: removing the noise and preserving large differences. Bioinformatics. 35: 2084-2092. https://doi.org/10.1093/bioinformatics/bty895
